@@ -4,7 +4,7 @@
 
 I like understanding how things work under the hood: what a command-line tool does with its arguments, how data is stored in memory, and how to implement something normally handled by a standard library.
 
-**This is the public part of my project archive.** I keep other coursework, Linux and systems analysis projects, earlier iterations, and some team work in private repositories.
+**This is the public part of my project archive.** I keep other coursework, Linux and systems analysis projects, and earlier iterations in private repositories.
 
 ## C projects
 
@@ -39,4 +39,3 @@ make check
 
 [Project documentation](https://github.com/Nixsus20/school_21#readme) · [Build and test runs](https://github.com/Nixsus20/school_21/actions/workflows/verify.yml)
 
-Some of these projects were developed with teammates at School 21.
