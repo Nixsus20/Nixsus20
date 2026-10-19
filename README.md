@@ -1,22 +1,32 @@
-# Nixsus20
+# Nixsus
 
-Mostly C and Linux. I like projects where you can actually follow what happens to the data: from command-line arguments to pointers, memory and the final output.
+C / Linux / PostgreSQL
 
-I've been studying at School 21. This GitHub has the parts of that work I wanted to keep in one place. Some projects were done with teammates.
+I like working close to the details: parsing command-line flags, dealing with memory, writing functions that usually come from a standard library.
 
-## Projects
+Only a selection of my projects is public. I keep other coursework, experiments and team work in private repositories.
 
-| | |
-| --- | --- |
-| [Simple Bash Utils](https://github.com/Nixsus20/school_21/tree/main/C/simple-bash-utils) | `cat` and `grep` in C. Flags, file handling, regex, comparison tests. |
-| [s21_stringplus](https://github.com/Nixsus20/school_21/tree/main/C/string-library) | Recreating common `string.h` functions and part of `sprintf`. |
-| [s21_decimal](https://github.com/Nixsus20/school_21/tree/main/C/decimal-library) | Decimal arithmetic with a 96-bit integer representation. No `__int128`. |
-| [s21_matrix](https://github.com/Nixsus20/school_21/tree/main/C/matrix-library) | Matrix operations, dynamic allocation, determinants and inversion. |
-| [Terminal Tetris](https://github.com/Nixsus20/school_21/tree/main/C/terminal-tetris) | Tetris on a 10x20 board, game states and an ncurses interface. |
-| [SQL projects](https://github.com/Nixsus20/school_21/tree/main/SQL) | PostgreSQL queries, joins, views, data changes and recursive CTEs. |
+## Selected work
 
-Everything public is collected in [school_21](https://github.com/Nixsus20/school_21). The individual folders are where I keep the task constraints, source files and build instructions.
+### [Simple Bash Utils](https://github.com/Nixsus20/school_21/tree/main/C/simple-bash-utils)
+My versions of `cat` and `grep` in C. File handling, command-line flags, regular expressions and tests against the original tools.
 
-**Tools I've worked with:** C, GCC, Make, Bash, Linux, Git, PostgreSQL, ncurses, Check.
+### [s21_decimal](https://github.com/Nixsus20/school_21/tree/main/C/decimal-library)
+Arithmetic with a custom decimal representation. Bit operations, scaling, rounding and type conversions.
 
-Still learning. The point of keeping these projects here is to have the actual code to look at, not just a list of technologies.
+### [Terminal Tetris](https://github.com/Nixsus20/school_21/tree/main/C/terminal-tetris)
+Tetris in a terminal, using a finite-state machine for the game logic and ncurses for the interface.
+
+More code: [string library](https://github.com/Nixsus20/school_21/tree/main/C/string-library), [matrix library](https://github.com/Nixsus20/school_21/tree/main/C/matrix-library), [SQL exercises](https://github.com/Nixsus20/school_21/tree/main/SQL).
+
+## Try the projects
+
+```bash
+git clone https://github.com/Nixsus20/school_21.git
+cd school_21
+make check
+```
+
+[Source and documentation](https://github.com/Nixsus20/school_21) · [Automated checks](https://github.com/Nixsus20/school_21/actions/workflows/verify.yml)
+
+Some of the projects were developed together with my teammates at School 21.
