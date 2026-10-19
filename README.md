@@ -1,24 +1,22 @@
-# Hi, I'm Nixsus
+# Nixsus20
 
-I write C, spend a lot of time in Linux, and like figuring out how everyday tools work on the inside.
+Mostly C and Linux. I like projects where you can actually follow what happens to the data: from command-line arguments to pointers, memory and the final output.
 
-Most of the projects here started at School 21. Some were done with teammates, others are individual exercises. I keep the code, build instructions and a short explanation of what was actually implemented.
+I've been studying at School 21. This GitHub has the parts of that work I wanted to keep in one place. Some projects were done with teammates.
 
 ## Projects
 
-| Project | What I worked with |
+| | |
 | --- | --- |
-| [Simple Bash Utils](https://github.com/Nixsus20/school_21/tree/main/C/simple-bash-utils) | My own versions of `cat` and `grep`, flags, regular expressions, shell tests |
-| [String library](https://github.com/Nixsus20/school_21/tree/main/C/string-library) | String and memory functions in C, pointers, `sprintf` |
-| [Decimal library](https://github.com/Nixsus20/school_21/tree/main/C/decimal-library) | Bit-level representation, arithmetic and rounding |
-| [Matrix library](https://github.com/Nixsus20/school_21/tree/main/C/matrix-library) | Dynamic memory, matrix operations and tests |
-| [Terminal Tetris](https://github.com/Nixsus20/school_21/tree/main/C/terminal-tetris) | Game-state logic, keyboard input and ncurses |
-| [SQL exercises](https://github.com/Nixsus20/school_21/tree/main/SQL) | Queries, joins, views and a recursive graph search |
+| [Simple Bash Utils](https://github.com/Nixsus20/school_21/tree/main/C/simple-bash-utils) | `cat` and `grep` in C. Flags, file handling, regex, comparison tests. |
+| [s21_stringplus](https://github.com/Nixsus20/school_21/tree/main/C/string-library) | Recreating common `string.h` functions and part of `sprintf`. |
+| [s21_decimal](https://github.com/Nixsus20/school_21/tree/main/C/decimal-library) | Decimal arithmetic with a 96-bit integer representation. No `__int128`. |
+| [s21_matrix](https://github.com/Nixsus20/school_21/tree/main/C/matrix-library) | Matrix operations, dynamic allocation, determinants and inversion. |
+| [Terminal Tetris](https://github.com/Nixsus20/school_21/tree/main/C/terminal-tetris) | Tetris on a 10x20 board, game states and an ncurses interface. |
+| [SQL projects](https://github.com/Nixsus20/school_21/tree/main/SQL) | PostgreSQL queries, joins, views, data changes and recursive CTEs. |
 
-The full set of publishable C and SQL exercises is in [**school_21**](https://github.com/Nixsus20/school_21). I keep the rest of the coursework in a private archive.
+Everything public is collected in [school_21](https://github.com/Nixsus20/school_21). The individual folders are where I keep the task constraints, source files and build instructions.
 
-## What I use
+**Tools I've worked with:** C, GCC, Make, Bash, Linux, Git, PostgreSQL, ncurses, Check.
 
-`C`  ·  `Linux`  ·  `Bash`  ·  `Git`  ·  `Make`  ·  `SQL`
-
-I like small utilities, straightforward documentation and code that I can test and take apart. Still learning, still collecting the parts worth keeping.
+Still learning. The point of keeping these projects here is to have the actual code to look at, not just a list of technologies.
